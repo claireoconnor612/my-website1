@@ -2,7 +2,7 @@ body {
     background-color: #C3EFF3;  /* Light gray background */
     color: #333;  /* Dark text */
     font-family: Georgia Pro;
-    text-align: center;
+    text-align: left;
 }
 .container {
     display: flex; /* Enables side-by-side layout */
@@ -18,5 +18,5 @@ body {
 }
 
 .container .text {
-    max-width: 400px;
+    max-width: 500px;
 }
