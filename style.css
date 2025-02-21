@@ -4,3 +4,19 @@ body {
     font-family: Times New Roman, sans-serif;
     text-align: center;
 }
+.container {
+    display: flex; /* Enables side-by-side layout */
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers content */
+    gap: 20px; /* Adds space between image & text */
+    padding: 20px;
+}
+
+.container img {
+    width: 200px; /* Adjust image size */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.container .text {
+    max-width: 400px;
+}
