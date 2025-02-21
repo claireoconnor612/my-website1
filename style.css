@@ -20,3 +20,8 @@ body {
 .container .text {
     max-width: 500px;
 }
+img {
+    float: right; /* Moves image to the right */
+    margin-left: 15px; /* Adds space to the left */
+    width: 150px; /* Adjust size */
+}
