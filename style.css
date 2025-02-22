@@ -4,6 +4,9 @@ body {
     font-family: 'Poppins', sans-serif;
     text-align: left;
 }
+.container .text {
+    max-width: 500px;
+}
 .container {
     display: flex; /* Enables side-by-side layout */
     align-items: center; /* Aligns items vertically */
@@ -15,10 +18,6 @@ body {
 .container img {
     width: 100px; /* Adjust image size */
     border-radius: 10px; /* Optional: rounded corners */
-}
-
-.container .text {
-    max-width: 500px;
 }
 img {
     float: right; /* Moves image to the right */
