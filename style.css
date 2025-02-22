@@ -4,9 +4,6 @@ body {
     font-family: 'Poppins', sans-serif;
     text-align: left;
 }
-.container .text {
-    max-width: 500px;
-}
 .container {
     display: flex; /* Enables side-by-side layout */
     align-items: center; /* Aligns items vertically */
