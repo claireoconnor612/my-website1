@@ -25,3 +25,7 @@ body {
     margin: 30px; /* Adjust as needed */
     padding: 20px;
 }
+.flex-right {
+    display: flex;
+    justify-content: flex-end; /* Moves text to the right */
+}
