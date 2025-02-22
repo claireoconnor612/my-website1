@@ -2,7 +2,7 @@ body {
     background-color: #C3EFF3;  /* Light gray background */
     color: #333;  /* Dark text */
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 .container {
     display: flex; /* Enables side-by-side layout */
@@ -22,6 +22,6 @@ body {
 }
 img {
     float: right; /* Moves image to the right */
-    margin-left: 15px; /* Adds space to the left */
+    margin-left: 20px; /* Adds space to the left */
     width: 150px; /* Adjust size */
 }
