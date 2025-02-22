@@ -21,3 +21,12 @@ img {
     margin-left: 20px; /* Adds space to the left */
     width: 150px; /* Adjust size */
 }
+body {
+    margin: 20px; /* Adjust as needed */
+    padding: 20px;
+}
+.publications-container {
+    margin: 40px auto; /* Adds space around & centers content */
+    width: 80%; /* Controls content width */
+    padding: 20px;
+}
