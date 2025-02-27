@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <nav>
-    <a href="index.html">Home</a> |
-    <a href="publications.html">Publications</a> |
-    <a href="contact.html">Contact</a>
-</nav>
-    <title>PhD Student | AI & Accessibility</title>
-    <style>
-        body {
+body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -23,6 +11,16 @@
             color: white;
             padding: 20px 0;
         }
+        nav {
+            background: #003f63;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
         section {
             max-width: 800px;
             margin: 20px auto;
@@ -30,6 +28,12 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
         }
         footer {
             background: #005a8d;
@@ -47,11 +51,18 @@
         <h1>PhD Student in AI & Accessibility</h1>
         <p>Exploring AI-driven solutions for communication disorders</p>
     </header>
-    <section>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
         <h2>About Me</h2>
+        <img src="profile.jpg" alt="Profile Image" class="profile-img">
         <p>Hi! I’m a first-year PhD student passionate about AI development and accessibility for individuals with communication disorders. My research focuses on leveraging AI to enhance assistive communication technologies.</p>
     </section>
-    <section>
+    <section id="research">
         <h2>Research Interests</h2>
         <ul>
             <li>AI-driven Augmentative and Alternative Communication (AAC)</li>
@@ -59,11 +70,11 @@
             <li>Human-Computer Interaction and Inclusive Design</li>
         </ul>
     </section>
-    <section>
+    <section id="projects">
         <h2>Projects</h2>
         <p>Check out my GitHub for current research and development projects: <a href="https://github.com/yourusername" target="_blank">My GitHub</a></p>
     </section>
-    <footer>
+    <footer id="contact">
         <p>Contact: your.email@domain.com | <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
     </footer>
 </body>
